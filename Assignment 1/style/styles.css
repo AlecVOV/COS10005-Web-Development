@@ -1,0 +1,247 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/* Styling for Overall Page */
+body {  
+    background-color: #f8f8f8; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ---------------------------------
+------Styling the Navigation -------
+-------------------------------------*/
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 30px;
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+    transition: 1s;
+    color: black;
+    width: 100%;
+}
+
+
+
+/* Main Content Enhancements*/
+h1 {
+    color: #333; 
+    text-align: center;
+    padding: 15px;
+}
+
+/* Adding word spacing for each word */
+p {
+    word-spacing: 1.3px; 
+}
+
+
+
+img.center {
+    width: 50%;
+    display: block; /* Centers image */
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 15px; 
+}
+
+/* About me */
+main{ 
+    background-color: #ebebeb; /* Adds a different background */
+    border-radius: 10px; /* Softens corners */
+    margin: 10px; 
+    padding: 15px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+main ul {
+    padding-left: 20px;
+}
+
+/* Style the outer container */
+#playlist {
+    width: 50%;     
+    padding: 20px; 
+    border: 3px solid #ccc; 
+    margin: 10px;
+  }
+  
+
+ .title{
+    margin: 0px  0px  0px 20px;
+  }
+  
+  /* Style the list and artist names */
+  ul {
+    list-style-type: disc; 
+  }
+  
+  li {   
+    margin-bottom: 5px;  
+  }
+  
+  /* Style the song lists */
+  ol {
+    list-style-type: decimal; 
+    margin-left: 25px;            
+  }
+  
+
+/* Table Styling */
+table {
+    border-collapse: collapse; 
+    width: 95%; 
+    margin: 20px;  
+    padding: 20px;
+    border: 2px solid black; 
+}
+
+td, th { 
+    padding: 8px; 
+    text-align: center; 
+    border: 2px solid black; 
+    width: auto;
+}
+
+
+/* Coloring Unit At Swinburne */
+.pastel-pink {
+    background-color: #ffd1dc; 
+}
+
+.pastel-blue {
+    background-color: #aec6cf; 
+}
+
+.pastel-brown {
+    background-color: #d2b48c; /
+}
+
+.pastel-yellow {
+    background-color: #fdfd96; 
+}
+
+aside{
+    display: flex;
+    font-size: 20px;
+    width: 50%;     
+    border: 3px solid #ccc; 
+    margin: 20px;
+}
+
+#header_page{
+    margin: 20px;
+    word-spacing: 1px;
+}
+
+.animate {
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+
+@keyframes fade {
+	from {opacity:0;}
+	to {opacity:1;}
+}
+
+
+.form {
+    width: 800px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 10px;
+    display: inline-table;
+}
+
+
+
+/* home page styling*/
+article {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #dedada;
+}
+
+#inline-image {
+    white-space: nowrap; 
+}
+
+#inline-image img {
+    display: inline-block;
+    width: 47%; 
+    height: auto; 
+    margin: 10px 20px; 
+}
+
+
+/* hometown styling image */
+#inline-image2, #inline-image3 {
+    white-space: nowrap; 
+}
+
+#inline-image2 img {
+    display: inline-block;
+    width: 47%; 
+    height: auto; 
+    margin: 10px 20px; 
+}
+  
+
+#inline-image3 img {
+    display: inline-block;
+    width: 47%; 
+    height: auto; 
+    margin: 10px 20px; 
+}
+
+/* ---------------------------------
+------Styling the Footer---- -------
+------------------------------------*/
+hr {
+    height: 2px; 
+    border: none;   
+    background-color: black; 
+}
+  
+footer {
+    margin-top: auto;
+    margin: 10px;
+    text-align: left; 
+    font-size: 1em; 
+    display: flex;    
+    justify-content: space-between; 
+    align-items: center;  
+     
+}
+
+.copyright {
+    color: #666; /* Grayish for subtly */
+}
